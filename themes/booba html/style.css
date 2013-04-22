@@ -1,0 +1,254 @@
+/*
+Theme Name: Booba Lyriciste Agréé
+Theme URI: http://www.unkut.fr
+Author: Le DUC
+Author URI: http://rapgenius.com/Booba-duc-de-boulogne-lyrics
+Description: Thème de démo pour les cours du soir. IZI
+Version: 1.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* ----- RESET ----*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ----- /RESET ----*/
+
+body{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	color: #333;
+}
+
+.admin-bar #bg-header{
+	top: 28px;
+}
+
+.clear{
+	clear: both;
+}
+
+#wrapper{
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 200;
+}
+
+#bg-header{
+	width: 100%;
+	height: 75px;
+	background: #e2e2e2;
+	border-bottom:2px solid #898989;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+header{
+	width: 960px;
+	height: 75px;
+}
+
+header ul{
+	float: right;
+	display: block;
+	width: 650px;
+	height: 75px;
+	text-align: right;
+}
+
+header ul li{
+	display: inline-block;
+	height: 75px;
+	padding: 0 10px;
+}
+
+header ul li a{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #333;
+	text-decoration: none;
+	line-height: 75px;
+}
+
+#logo{
+	display: block;
+	width: 128px;
+	height: 42px;
+	background: url(images/logo.png);
+	margin-top: 15px;
+	float: left;
+}
+
+#container{
+	margin-top: 30px;
+}
+
+#quote{
+	padding: 20px;
+}
+
+#quote p{
+	font-weight: bold;
+	color: #333;
+	font-size: 16px;
+}
+
+#main-content{
+	width: 580px;
+	float: left;
+	display: block;
+	background: #ebe8e8;
+	padding: 20px;
+}
+
+#main-content ul{
+
+}
+
+#main-content ul li{
+	margin-bottom: 20px;
+}
+
+#sidebar{
+	width: 320px;
+	float: right;
+	display: block;
+}
+
+.widget{
+	background: #ebe8e8;
+	margin-bottom: 20px;
+
+}
+
+.widget.fake{
+	height: 150px;
+}
+
+.blog-thumb{
+	float: left;
+	display: block;
+	width: 150px;
+	height: 150px;
+}
+
+.post-info{
+	float: right;
+	width: 410px;
+}
+
+.post-info h2{
+	font-size: 20px;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 15px;
+}
+
+.post-info p{
+	margin-bottom: 15px;
+}
+
+.post-info a{
+	padding: 5px 10px;
+	color: #FFF;
+	background: #878787;
+	text-decoration: none;
+	display: inline-block;
+	width: auto;
+}
+
+.widget-title{
+	background: #909090;
+	padding: 10px;
+	color: #FFF;
+	display: block;
+}
+
+footer{
+	height: 40px;
+	background: #ebe8e8;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+footer ul li{
+	display: inline-block;
+	padding: 0 10px;
+}
+
+footer ul li a{
+	font-size: 12px;
+	color: #333;line-height: 40px;
+	text-decoration: none
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
