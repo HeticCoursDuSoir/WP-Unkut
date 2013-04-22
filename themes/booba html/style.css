@@ -1,5 +1,5 @@
 /*
-Theme Name: Booba Lyriciste Agréé
+Theme Name: Booba HTML
 Theme URI: http://www.unkut.fr
 Author: Le DUC
 Author URI: http://rapgenius.com/Booba-duc-de-boulogne-lyrics
@@ -158,7 +158,7 @@ header ul li a{
 }
 
 #main-content ul li{
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 
 #sidebar{
@@ -200,7 +200,12 @@ header ul li a{
 	margin-bottom: 15px;
 }
 
-.post-info a{
+.post-info h2 a{
+	color: #333;
+	text-decoration: none;
+}
+
+.post-info .more-btn{
 	padding: 5px 10px;
 	color: #FFF;
 	background: #878787;
@@ -235,8 +240,44 @@ footer ul li a{
 	text-decoration: none
 }
 
+.typo h2{
+	line-height: 1.5em;
+	margin: 0 0 20px 0;
+	font-weight: bold;
+	font-size: 16px;
+}
 
+.typo h3{
+	line-height: 1.3em;
+	margin: 0 0 20px 0;
+	font-size: 16px;
+}
 
+.typo p{
+	margin-bottom: 24px;
+	line-height: 15px;
+}
+
+.typo a{
+	font-weight: bold;
+	color: #333;
+}
+
+.single h1{
+	font-size: 24px;
+	font-weight: bold;
+	padding: 10px 0;
+}
+
+#post-thumb{
+	margin-bottom: 15px;
+}
+
+#punchline li{
+	padding: 10px;
+	background: #FFF;
+	margin-bottom: 10px;
+}
 
 
 

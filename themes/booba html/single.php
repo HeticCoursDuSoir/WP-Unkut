@@ -25,7 +25,6 @@
 				<div id="sidebar">
 					<?php dynamic_sidebar('main-sidebar'); ?>
 				</div><!-- #sidebar -->
-				
 				<div class="clear"></div>
 			</section><!-- #container -->
 

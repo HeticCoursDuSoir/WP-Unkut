@@ -5,20 +5,14 @@
 			<section id="container">
 
 				<div id="main-content">
-					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-
 					<div id="post-container">
 						<h1><?php the_title(); ?></h1>
-						<div id="post-thumb">
-							<?php the_post_thumbnail('single'); ?>
-						</div>
 
 						<div id="post-content" class="typo">
-							<?php the_content(); ?>
+							<img src="<?php echo bloginfo('template_url'); ?>/images/404.png" alt="" />
 						</div>
 						
 					</div>
-				<?php endwhile; endif; ?>
 				</div> <!-- #main-content -->
 			
 

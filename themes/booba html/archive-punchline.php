@@ -2,30 +2,28 @@
 			//on appelle le fichier header.php
 			get_header(); ?>
 
+
 			<section id="container">
 
+				<div id="quote">
+					<p>“ Si t’es criblé de douilles c’est que tu chantes comme un poulet ”</p>
+				</div>
+
 				<div id="main-content">
-					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-
-					<div id="post-container">
-						<h1><?php the_title(); ?></h1>
-						<div id="post-thumb">
-							<?php the_post_thumbnail('single'); ?>
-						</div>
-
-						<div id="post-content" class="typo">
-							<?php the_content(); ?>
-						</div>
+					<ul id="punchline">
+						<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+							<li>"<?php the_title(); ?>"</li>
+						<?php endwhile; else: ?>
+							<p>Aucun article pour le moment</p>
+						<?php endif; ?>
 						
-					</div>
-				<?php endwhile; endif; ?>
+					</ul>
 				</div> <!-- #main-content -->
 			
 
 				<div id="sidebar">
 					<?php dynamic_sidebar('main-sidebar'); ?>
 				</div><!-- #sidebar -->
-				
 				<div class="clear"></div>
 			</section><!-- #container -->
 
